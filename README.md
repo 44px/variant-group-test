@@ -1,5 +1,7 @@
 # Variant Group Test
 
+[https://44px.github.io/variant-group-test/](https://44px.github.io/variant-group-test/)
+
 ## Структура
 
 - `src/kanban` – компоненты фичи
