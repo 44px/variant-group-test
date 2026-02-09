@@ -1,0 +1,8 @@
+.container {
+  padding: var(--space-1) var(--space-2\.5);
+  font-size: var(--text-size-md);
+  font-weight: 500;
+  letter-spacing: -0.4px;
+  background: var(--color-bg-accent);
+  border-radius: var(--radius-2);
+}

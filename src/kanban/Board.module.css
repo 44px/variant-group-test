@@ -1,0 +1,11 @@
+.container {
+  padding: var(--space-5);
+  padding-bottom: var(--space-12);
+  background: var(--color-bg-primary);
+}
+
+.columns {
+  padding: var(--space-3);
+  border-radius: var(--radius-6);
+  border: 1px solid var(--color-border-subtle);
+}

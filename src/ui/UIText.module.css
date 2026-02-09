@@ -1,0 +1,44 @@
+.container {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.variantHeading {
+  font-size: var(--text-size-xxl);
+  font-weight: 700;
+  line-height: 39px;
+}
+
+.variantTitle {
+  font-size: var(--text-size-lg);
+  font-weight: 600;
+  letter-spacing: -0.2px;
+  line-height: 19px;
+}
+
+.variantCaption {
+  font-size: var(--text-size-md);
+  font-weight: 500;
+  letter-spacing: -0.4px;
+  line-height: 17px;
+}
+
+.variantBody {
+  font-size: var(--text-size-md);
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  line-height: 17px;
+}
+
+.colorPrimary {
+  color: var(--color-text-primary);
+}
+
+.colorSecondary {
+  color: var(--color-text-secondary);
+}
+
+.colorMuted {
+  color: var(--color-text-muted);
+}

@@ -1,0 +1,55 @@
+@import 'normalize.css';
+/* Font */
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/inter/700.css';
+
+/* Tokens */
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-2\.5: 10px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-12: 48px;
+
+  /* Text */
+  --text-size-xxl: 32px;
+  --text-size-lg: 16px;
+  --text-size-md: 14px;
+  --color-text-primary: #212121;
+  --color-text-secondary: #4D4D4D;
+  --color-text-muted: #5A5A65;
+
+  /* Background */
+  --color-bg-primary: #FFF;
+  --color-bg-accent: #FFDCE0;
+  --color-bg-column: #F7F7F7;
+  --color-bg-column-title: #E1E4E8;
+
+  /* Borders */
+  --color-border-normal: #DDDDDD;
+  --color-border-subtle: rgba(0, 0, 0, 0.05);
+
+  /* Radii */
+  --radius-2: 8px;
+  --radius-3: 12px;
+  --radius-6: 24px;
+  --radius-pill: 999px;
+}
+
+/* Global styles */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
